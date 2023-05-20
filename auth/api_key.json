@@ -1,0 +1,5 @@
+{
+    "api_key_omdb" : "//",      //get your api_key from - https://www.omdbapi.com
+    "api_key_gender" : ""       //get your api_key from - https://gender-api.com
+
+}

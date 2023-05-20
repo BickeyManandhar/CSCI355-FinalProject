@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OMDb API / Gender API</title>
+		<style>
+			body, form{
+				margin:20px auto;
+				max-width:800px;
+				overflow-x:hidden;
+			}
+			fieldset{
+				display: flex;
+			}
+			input#description{
+				flex-grow:50;
+				margin: 0 20px;
+			}
+			input#location{
+				flex-grow:50;
+				margin: 0 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="search" method="get">
+			<fieldset>
+				<legend>OMDb API/ Gender API</legend>
+				<label for="movie_name">Movie Name:</label>
+				<input id="movie_name" name="movie_name" type="text" />
+			</fieldset>
+		</form>
+	</body>
+</html>
